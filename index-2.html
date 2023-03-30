@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style-2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="blank">
+    <header class="header">
+        <div class="header_logo">
+            <img class="logo" src="https://th.bing.com/th/id/R.527724f59e3e010d8aba5f85c684f62f?rik=RuD%2b8HnubWR06Q&pid=ImgRaw&r=0" width="100px" alt="" />
+        </div>
+        <ul class="header__menu">
+            <li class="header__menu-items">
+                <a href="./index.html">
+                    Home
+                </a>
+            </li>
+            <li class="header__menu-items">
+                <a href="./index-2.html">
+                    Login
+                </a>
+            </li>
+            <li class="header__menu-items">
+                <a href="./index-3.html">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </header>
+</div>
+
+<div class="box">
+    <div class="box__close">X</div>
+    <h1 class="box__title">Login</h1>
+    <form action="#">
+        <div class="box__form">
+            <span class="box__icon">
+                <i class="fa-solid fa-envelope-open-text"></i>
+            </span>
+            <input class="box__input" type="text" required />
+            <label class="box__label">Email</label>  
+        </div>
+
+        <div class="box__form">
+            <span class="box__icon">
+                <i class="fa-solid fa-lock"></i>
+            </span>
+            <input class="box__input" type="password" required />
+            <label class="box__label">Password</label>  
+        </div>
+
+        <div class="box_remember">
+            <div class="checkbox">
+                <input type="checkbox" />Remember me
+            </div>
+            <a class="forget" href="#">Forgot password</a>
+        </div>
+
+        <button class="box__button" type="submit">Login</button>
+
+        <div class="box_under">
+            <p class="under_text_1">Don't have an account?
+                <a class="under_register" href="#">Register</a>
+            </p>
+        </div>
+    </form>
+</div>
+<script src="https://kit.fontawesome.com/6d7cb93199.js" crossorigin="anonymous"></script>
+</body>
