@@ -134,7 +134,7 @@ body {
     background-color: #000;
     color: #fff;
     font-weight: bold;
-    transition: 1s;
+    transition: 0.3s;
 }
 .box__button:hover {
     background-color: #000000af;

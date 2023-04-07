@@ -277,7 +277,7 @@ span {
         padding: 5px 10px;
         border-radius: 10px;
         text-transform: uppercase;
-        
+        margin: 0 20px;
     }
     .header__menu-items a:hover {
         color: #00047b;
